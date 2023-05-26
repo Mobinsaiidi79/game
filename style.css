@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pic/road.png) repeat-y center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.hide{
+    display: none;
+}
+.start {
+    position: absolute;
+    left: 40%;
+    top: 20rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    width: 20%;
+    color: #fff;
+    font-size: 30px;
+    height: 5rem;
+    transition: .2s ease-in;
+}
+
+.start:hover {
+    transform: scale(1.07);
+}
+
+#mymotorimg {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 55vh;
+}
+
+#carimg1 {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    animation: car1 4s infinite linear;
+}
+
+#carimg2 {
+    position: absolute;
+    width: 20%;
+    left: 38%;
+    animation: car2 3s infinite linear;
+}
+#carimg3 {
+    position: absolute;
+    width: 20%;
+    left: 37%;
+    bottom: 0%;
+    animation: car 5s infinite linear;
+}
+#carimg4 {
+    position: absolute;
+    width: 20%;
+    left: 30%;
+    bottom: 0%;
+    animation: car4 4s infinite linear;
+}
+#carimg5 {
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    bottom: 0%;
+    animation: car5 6s infinite linear;
+}
+
+
+
+@keyframes car1 {
+    0% {
+        top: -20vh
+    }
+
+    100% {
+        top: 100vh
+    }
+}
+@keyframes car2 {
+    0% {
+        top: -40vh
+    }
+
+    100% {
+        top: 100vh
+    }
+}
+@keyframes car3 {
+    0% {
+        top: -60vh
+    }
+
+    100% {
+        top: 100vh
+    }
+}
+@keyframes car4 {
+    0% {
+        top: -80vh
+    }
+
+    100% {
+        top: 90vh
+    }
+}
+@keyframes car5 {
+    0% {
+        top: -100vh
+    }
+
+    100% {
+        top: 90vh
+    }
+}
