@@ -14,6 +14,18 @@ body {
 .hide{
     display: none;
 }
+#score{
+    width: 20%;
+    border: none;
+    margin-top: 2%;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 0 20px 20px 0;
+    padding-left: 20px;
+    background-color: #03A9F4;
+    color: #fff;
+    font-size: 30px;
+}
 .start {
     position: absolute;
     left: 40%;
@@ -21,7 +33,8 @@ body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    background-color: red;
+    background-color: #03A9F4;
+    opacity: .8;
     width: 20%;
     color: #fff;
     font-size: 30px;
@@ -30,7 +43,9 @@ body {
 }
 
 .start:hover {
-    transform: scale(1.07);
+    transform: scale(0.97);
+    background-color: #000;
+    opacity: .8;
 }
 
 #mymotorimg {
@@ -43,39 +58,30 @@ body {
 #carimg1 {
     position: absolute;
     width: 20%;
-    left: 40%;
+    left: 39%;
     animation: car1 4s infinite linear;
 }
 
 #carimg2 {
     position: absolute;
     width: 20%;
-    left: 38%;
+    left: 40%;
     animation: car2 3s infinite linear;
 }
 #carimg3 {
     position: absolute;
     width: 20%;
-    left: 37%;
+    left: 30.7%;
     bottom: 0%;
-    animation: car 5s infinite linear;
+    animation: car3 5s infinite linear;
 }
 #carimg4 {
     position: absolute;
     width: 20%;
-    left: 30%;
+    left: 35%;
     bottom: 0%;
-    animation: car4 4s infinite linear;
+    animation: car4 5s infinite linear;
 }
-#carimg5 {
-    position: absolute;
-    width: 20%;
-    left: 50%;
-    bottom: 0%;
-    animation: car5 6s infinite linear;
-}
-
-
 
 @keyframes car1 {
     0% {
@@ -107,15 +113,6 @@ body {
 @keyframes car4 {
     0% {
         top: -80vh
-    }
-
-    100% {
-        top: 90vh
-    }
-}
-@keyframes car5 {
-    0% {
-        top: -100vh
     }
 
     100% {
