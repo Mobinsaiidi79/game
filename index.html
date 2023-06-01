@@ -6,30 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
+    <audio src="GmaeOver.mp3" id="myAudio"></audio>
 
     <div id="score">Score : 0</div>
+    <div class="bac-body1">
+        <img src="pic/bac.png">
+    </div>
+    <div class="bac-body2">
+        <img src="pic/bac1.png" alt="">
+    </div>
     <button class="start">
         <i class="	fas fa-tachometer-alt"></i>
         Start
         <i class="	fas fa-tachometer-alt"></i>
     </button>
     <div class="elman hide">
-        <div id="car1">
-            <img src="pic/2.png" id="carimg1" class="carimg">
-            <img src="pic/4.png" id="carimg2" class="carimg">
-            <img src="pic/3.png" id="carimg3" class="carimg">
-            <img src="pic/4.png" id="carimg4" class="carimg">
-        </div>
+        <div id="car1"><img src="pic/2.png" id="carimg1" class="carimg"></div>
+        <div id="car2"><img src="pic/4.png" id="carimg2" class="carimg"></div>
+        <div id="car3"><img src="pic/3.png" id="carimg3" class="carimg"></div>
+        <div id="car4"><img src="pic/4.png" id="carimg4" class="carimg"></div>
 
-        <div class="mymotor">
-            <img src="pic/1.png" id="mymotorimg">
-        </div>
     </div>
+    <div class="myMotor"><img src="pic/1.png" id="myMotorimg"></div>
+    <div class="road-game ">
+        <img src="pic/road.png" class="road">
+    </div>
+
     <script src="script.js"></script>
 </body>
 
